@@ -8,23 +8,28 @@ jobs:
     
     steps:
     - name: First Step
+      id: first_step
       run: echo "Running the first step"
       
     - name: Second Step
+      id: second_step
       run: |
         echo "This is step two"
         echo "Multiple commands can be run"
         
     - name: Third Step
+      id: third_step
       run: echo "Executing step three"
         
     - name: Fourth Step
+      id: fourth_step
       run: |
         echo "Starting step four"
         echo "Almost done!"
         
     - name: Final Step
+      id: final_step
       run: echo "Completed all steps successfully!"
 
     - name: JavaScript Step
-      uses: akila-i/github-workflow-step-test@v0.1.0
+      uses: akila-i/github-workflow-step-test@v0.1.1
