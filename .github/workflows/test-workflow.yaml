@@ -32,4 +32,4 @@ jobs:
       run: echo "Completed all steps successfully!"
 
     - name: JavaScript Step
-      uses: akila-i/github-workflow-step-test@v0.1.4
+      uses: akila-i/github-workflow-step-test@v0.1.5
