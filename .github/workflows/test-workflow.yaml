@@ -32,4 +32,7 @@ jobs:
       run: echo "Completed all steps successfully!"
 
     - name: JavaScript Step
-      uses: akila-i/github-workflow-step-test@v0.1.6
+      uses: akila-i/github-workflow-step-test@v0.1.7
+      with:
+        who-to-greet: 'Akila'
+        steps: ${{ steps }}
