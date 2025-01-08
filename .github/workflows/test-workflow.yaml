@@ -1,0 +1,28 @@
+name: Simple Workflow
+
+on: [push]
+
+jobs:
+  print-messages:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: First Step
+      run: echo "Running the first step"
+      
+    - name: Second Step
+      run: |
+        echo "This is step two"
+        echo "Multiple commands can be run"
+        
+    - name: Third Step
+      run: echo "Executing step three"
+        
+    - name: Fourth Step
+      run: |
+        echo "Starting step four"
+        echo "Almost done!"
+        
+    - name: Final Step
+      run: echo "Completed all steps successfully!"
+      
