@@ -25,4 +25,6 @@ jobs:
         
     - name: Final Step
       run: echo "Completed all steps successfully!"
-      
+
+    - name: JavaScript Step
+      uses: akila-i/github-workflow-step-test/tags/v0.1.0
